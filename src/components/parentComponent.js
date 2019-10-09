@@ -16,6 +16,7 @@ export class ParentComponent extends Component {
         // })
         alert(`Hallo ${this.state.message} from ${child}`)
     }
+    
 
     render() {
         return (

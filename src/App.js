@@ -8,6 +8,7 @@ import FunctionalClick from './components/functionalClick';
 import ClassClick from './components/classClick';
 import Eventbind from './components/eventbind';
 import ParentComponent from './components/parentComponent';
+import UserGreetings from './components/userGreetings';
 class App extends Component {
   render() {
     return (
@@ -16,11 +17,13 @@ class App extends Component {
         <Greet name="clerk" />
         <Greet name="diana" />
         <Welcome />
-        <Message /> */}
+        <Message /> 
         <FunctionalClick />
         <ClassClick />
         <Eventbind />
         <ParentComponent />
+        */}
+        <UserGreetings />
       </div>
     );
   }
